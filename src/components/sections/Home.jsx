@@ -9,7 +9,7 @@ export const Home = () => {
             <RevealOnScroll>
                 <div className="text-center z-10 px-4">
                     <img
-                        src="/ME.jpg"
+                        src="./ME.jpg"
                         alt="Paras Panchal"
                         className="mx-auto mb-6 h-32 w-32 md:h-55 md:w-55 rounded-full object-cover ring-2 ring-white/10 shadow-lg"
                         loading="eager"
