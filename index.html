@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paraskumar Panchal</title>
+  <script type="module" crossorigin src="/Protfolio_Paraskumar/assets/index-gAb0AknP.js"></script>
+  <link rel="stylesheet" crossorigin href="/Protfolio_Paraskumar/assets/index-C5pSGOV6.css">
+</head>
+
+<body>
+  <div id="root"></div>
+  <script>
+    (function () {
+      const img = new Image();
+      img.crossOrigin = "anonymous";
+      img.src = "./ME.jpg";
+      img.onload = function () {
+        const size = 512;
+        const canvas = document.createElement("canvas");
+        canvas.width = size;
+        canvas.height = size;
+        const ctx = canvas.getContext("2d");
+        ctx.clearRect(0, 0, size, size);
+        ctx.save();
+        ctx.beginPath();
+        ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2);
+        ctx.closePath();
+        ctx.clip();
+        ctx.drawImage(img, 0, 0, size, size);
+        ctx.restore();
+        ctx.beginPath();
+        ctx.arc(size / 2, size / 2, size / 2 - 8, 0, Math.PI * 2);
+        ctx.strokeStyle = "rgba(255,255,255,0.15)";
+        ctx.lineWidth = 16;
+        ctx.stroke();
+        let link = document.querySelector('link[rel="icon"]');
+        if (!link) {
+          link = document.createElement("link");
+          link.rel = "icon";
+          document.head.appendChild(link);
+        }
+        link.type = "image/png";
+        link.href = canvas.toDataURL("image/png");
+      };
+    })();
+  </script>
+</body>
+
+</html>
