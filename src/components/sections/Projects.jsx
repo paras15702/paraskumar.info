@@ -47,7 +47,7 @@ export const Projects = () => {
                                 ))}
                             </div>
                             <div className="flex justify-between items-center">
-                                <a href="#" className="text-cyan-400 hover:text-cyan-300 transition-colors my-4">
+                                <a href="https://github.com/paras15702/AI_Assistant" className="text-cyan-400 hover:text-cyan-300 transition-colors my-4">
                                     View Project →
                                 </a>
                             </div>
@@ -107,7 +107,7 @@ export const Projects = () => {
                                 ))}
                             </div>
                             <div className="flex justify-between items-center">
-                                <a href="#" className="text-purple-400 hover:text-purple-300 transition-colors my-4">
+                                <a href="https://github.com/paras15702/fabcar" className="text-purple-400 hover:text-purple-300 transition-colors my-4">
                                     View Project →
                                 </a>
                             </div>
@@ -127,7 +127,7 @@ export const Projects = () => {
                                 ))}
                             </div>
                             <div className="flex justify-between items-center">
-                                <a href="#" className="text-orange-400 hover:text-orange-300 transition-colors my-4">
+                                <a href="https://github.com/paras15702/mernapp_backend" className="text-orange-400 hover:text-orange-300 transition-colors my-4">
                                     View Project →
                                 </a>
                             </div>
