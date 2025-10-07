@@ -20,7 +20,7 @@ export const Home = () => {
 
                     <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
                         A results-oriented Software Engineer and Master's student in Computer Science at USC,
-                        specializing in AI with experience building multi-agent systems (CrewAI) for workflow automation
+                        specializing in AI with experience building multi-agent systems for workflow automation
                         and full-stack LLM/RAG applications. Proficient in scalable backend development and CI/CD pipelines on AWS.
                     </p>
 
