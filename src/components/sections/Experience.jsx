@@ -20,13 +20,13 @@ export const Experience = () => {
                                     <p className="text-gray-300">University of Southern California</p>
                                 </div>
                                 <div className="text-gray-400 mt-2 md:mt-0 md:text-right">
-                                    <p>Sep 2025 – Present</p>
+                                    <p>Sep 2025 – Jan 2026</p>
                                     <p>Los Angeles, CA</p>
                                 </div>
                             </div>
                             <ul className="list-disc list-inside text-gray-300 space-y-2 mt-4">
-                                <li>Developed preprocessing pipeline for eye-tracking data, including blink detection/removal and signal normalization, reducing data noise by 60% for machine learning models.</li>
-                                <li>Implemented and evaluated CNN, LSTM, and Transformer architectures for ADHD classification, achieving an 18% F1-score improvement through data augmentation.</li>
+                                <li>Developed preprocessing pipeline for eye-tracking data, including blink detection/removal and signal normalization, reducing data noise by 60% for deep learning models.</li>
+                                <li>Implemented and evaluated CNN, BiLSTM, and Transformer architectures for ADHD classification, achieving an 18% F1-score improvement through data augmentation.</li>
                                 <li>Collaborated with research team, sharing insights on model performance and preprocessing techniques, resulting in 10% faster model training.</li>
                             </ul>
                         </div>

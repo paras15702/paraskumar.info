@@ -104,7 +104,7 @@ export const About = () => {
                                     <strong> Master of Science in Computer Science </strong> - University of Southern California (Jan 2025 - Dec 2026)
                                 </li>
                                 <li>
-                                    <strong> GPA: 3.46/4.0 </strong>
+                                    <strong> GPA: 3.54/4.0 </strong>
                                 </li>
                                 <li>
                                     Relevant Coursework: Machine Learning, Natural Language Processing, Analysis of Algorithms
