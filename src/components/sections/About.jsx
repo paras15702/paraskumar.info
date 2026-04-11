@@ -116,7 +116,7 @@ export const About = () => {
                                     <strong> CGPA: 9.2/10 </strong>
                                 </li>
                                 <li>
-                                    Relevant Coursework: Natural Language Processing, Data Structures & Algorithms
+                                    Relevant Coursework: Natural Language Processing, Data Structures & Algorithms, Operating Systems.
                                 </li>
                             </ul>
 
